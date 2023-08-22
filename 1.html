@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <title>Common Reference Angle Generator</title>
+  <body style="background-color: rgb(150, 150, 150);text-align:center">
+    <h1 style="color:rgb(44, 44, 44);">
+      Common Reference Angle Generator    
+    </h1>
+   
+      <br>
+      <br>
+      <label for="angleinput" style="color:white;font-size: x-large;">
+        Angle:
+      </label>
+      <input placeholder="0" type="number" id="angleinput" name="angletyped" style="position:relative;left:65px">
+      <br>
+      
+      <br>
+      <label for="refnuminput" style="color:white;font-size:x-large"># of  References: </label>
+      <input placeholder="0" id = refnuminput name="refnumtemp" type="number" style="position:relative; left: 20px;">
+      <br>
+      <br>
+      <br>
+      <button style= "position:relative; width:100px;font-size: larger;" onclick="anglefunc()">
+        Generate
+      </button>
+      <br>
+      <p style="color:white; word-wrap: break-word;font-size:xx-large"> &Oslash;:
+        <span id="displayangle">
+        </span>
+        <span style="position:relative; left:40px;font-size:xx-large">
+        #:
+        </span>
+        <span style="position:relative; left:42px;" id="displayrefnum"></span>
+        <br>
+        <br>
+        <span style="position: relative;left:30px;">Reference angles:</span> 
+        <br>
+        <span id="displayans"></span>
+      </p>
+      <script src="2.js">
+      </script>
+  </body>
+  <p style="color:white;position:absolute;right:100px;top:10px;">
+    Cory S.
+  </p>
+  <img src="code.png" alt="equasions" width="400" style="position:absolute;left:10px;top:10px;">
+</html>
