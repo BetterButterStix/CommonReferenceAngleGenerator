@@ -6,7 +6,8 @@ function anglefunc()
   document.getElementById("displayangle").
   innerHTML = Angle;
   refnum = document.getElementById("refnuminput").value
-  if (refnum > 5000){refnum=0}
+  if (refnum > 5000 ){refnum=0}
+  if (refnum < -5000 ){refnum=0}
   refnum = Number(refnum)
   document.getElementById("displayrefnum").innerHTML = refnum;
   ans = []
